@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    double r , a , b , c , ana , are , mere ;
+    double PI ;
+    PI = 3.14 ;
+
+    cout << "Raza=" ;
+    cin >> r ;
+
+    cout << "Perimetrul=" ;
+    cout << 2 * PI * r ;
+
+    cout << "Aria=" ;
+    cout << PI * r * r ;
+
+    return 0 ;
+}

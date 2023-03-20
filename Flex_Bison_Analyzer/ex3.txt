@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+    int a;
+    int b;
+    int rest;
+
+    cin >> a;
+    cin >> b;
+
+    rest = 1;
+    a = b + 1;
+    b = rest;
+
+    cout << a;
+
+    return 0;
+}

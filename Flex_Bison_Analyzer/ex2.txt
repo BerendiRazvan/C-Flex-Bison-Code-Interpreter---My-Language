@@ -1,0 +1,30 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+    int a;
+    int b;
+    int rest;
+
+
+    cout << "a=";
+    cin >> a;
+
+    cout<<"b=";
+    cin>>b;
+
+    while(b>0){
+        r=a%b;
+        a=1;
+        b=rest;
+    }
+
+    if(rest)
+        then
+        rest=a+b;
+        endif
+
+    cout<<"CMMDC=";
+    cout<<a;
+    return 0;
+}
